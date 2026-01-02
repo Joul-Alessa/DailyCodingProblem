@@ -4,7 +4,7 @@ I haven't read a lot about Lambda Calculus to get to know the field perfectly bu
 
 In this case, ```cons(a, b)``` returns a function type which encapsulates both two values from the problem's statement.
 
-So for the solution I thought that it is posible to take the first element of the ```pair``` function to other function that asks for the entire function as a parameter in case of the ```car``` function and the same for the ```cdr``` function but taking the second element:
+So for the solution I thought that it is possible to take the first element of the ```pair``` function to other function that asks for the entire function as a parameter in case of the ```car``` function and the same for the ```cdr``` function but taking the second element:
 
 ```py
 def cons(a, b):
